@@ -19,6 +19,9 @@ remain unclear.
 ## Methods:
 1. Different from MAE:
    1. Sample a region with k×k patches to perform masked reconstruction instead of from the full number of patches.
+      1. we find that it is sufficient to recover the missing information with only some local visual clues.
+   2. We replace the heavy-weight decoder in MAE with a lightweight MLP head. We feed all image patches directly into the encoder, including masked and visible patches.
+      1. Experiments show that these architectural changes bring more performance gain to the local masked reconstruction in small windows.
 
 
 
