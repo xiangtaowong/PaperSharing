@@ -25,11 +25,9 @@ remain unclear.
 
 
 
-
 ## Code:
 [Code](https://github.com/junchen14/LoMaR)
 
 
 ## Mine Thoughts:
-1. How to choose suitable patch location?
-2. 
+1. How to choose suitable patch location? 
